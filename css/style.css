@@ -4,6 +4,7 @@
 body {
   font-family: "Helvetica", "Poppins", sans-serif;
   overflow-x: hidden;
+  background-color:#095796cb ;
 }
 
 .layout_margin {
@@ -113,7 +114,18 @@ body {
 .sub_page .menu_btn-style {
   top: 4px;
 }
-
+.info_section form button {
+width: 100;
+text-align: left;
+display: inline-block;
+background-color: #0a1b89;
+color: #ffffff;
+padding: 10px 55px;
+border-radius: 0;
+transition: all 0,3s;
+border: none;
+margin: 15px;
+}
 .header_section {
   background-color: #0a1b89;
   padding: 0 30px;
@@ -375,7 +387,7 @@ a:focus {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  color: #ffffff;
+  color: #ee8e8e;
 }
 
 .slider_section .slider_text_carousel,
@@ -406,7 +418,7 @@ a:focus {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  background-color: #f7941d;
+  background-color: #0a1b89;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -482,12 +494,12 @@ a:focus {
 }
 
 .slider_section .box .detail-box .btn-box .btn-1:hover {
-  background-color: #f7941d;
+  background-color: #440830;
 }
 
 .slider_section .box .detail-box .btn-box .btn-2 {
   display: inline-block;
-  background-color: #f7941d;
+  background-color: #440830;
   color: #ffffff;
   padding: 12px 10px;
   border-radius: 0;
@@ -522,6 +534,7 @@ a:focus {
 }
 
 .feature_section .carousel_btn-box {
+  
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -543,7 +556,7 @@ a:focus {
           align-items: center;
   font-size: 20px;
   color: #ffffff;
-  background-color: #f7941d;
+  background-color: #440830;
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
           box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
   -webkit-transition: all .2s;
@@ -572,7 +585,7 @@ a:focus {
 }
 
 .feature_section .box .number_box {
-  color: #f7941d;
+  color: #360436;
   width: 60px;
   height: 60px;
   display: -webkit-box;
@@ -1159,9 +1172,9 @@ a:focus {
 
 /* end contact section */
 .news_section .row {
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: flex;
 }
 
 .news_section .detail_container {
@@ -1171,7 +1184,7 @@ a:focus {
 .news_section .detail_container .detail-box {
   -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.25);
           box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.25);
-  padding: 25px 65px 25px 25px;
+  padding: 25px 25px 25px 25px;
 }
 
 .news_section .detail_container .detail-box h4 {
@@ -1243,7 +1256,7 @@ a:focus {
 .client_section .box {
   padding: 25px;
   margin: 5px;
-  background-color: #ffffff;
+  background-color: #7ab9e9;
 }
 
 .client_section .box .client_id {
@@ -1334,14 +1347,14 @@ a:focus {
 }
 
 .contact_section form {
-  margin-top: 35px;
+  margin-top: 20px;
 }
 
 .contact_section input {
   width: 100%;
   border: none;
-  height: 50px;
-  margin-bottom: 25px;
+  height: 20px;
+  margin-bottom: 15px;
   padding-left: 15px;
   background-color: #ebebeb;
   outline: none;
@@ -1388,7 +1401,7 @@ a:focus {
   background-color: #081671;
 }
 
-.contact_section .map_container {
+/*.contact_section .map_container {
   height: 450px;
   overflow: hidden;
   display: -webkit-box;
@@ -1421,7 +1434,7 @@ a:focus {
   margin-bottom: 20px;
 }
 
-.info_section .info_contact .contact_link_box {
+/*.info_section .info_contact .contact_link_box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1471,7 +1484,7 @@ a:focus {
   color: #f7941d;
 }
 
-.info_section .info_links {
+/*.info_section .info_links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
